@@ -1,0 +1,25 @@
+/* src/components/NavBar.css */
+.navbar {
+    background-color: rgb(172, 26, 147);
+    padding: 1rem;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-item {
+    margin: 0 15px;
+}
+
+.navbar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.navbar-link:hover {
+    text-decoration: underline;
+}

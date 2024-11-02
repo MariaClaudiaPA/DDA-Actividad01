@@ -1,0 +1,41 @@
+.all-books-container {
+    padding: 20px;
+    background-color: #f9f1f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.all-books-container h2 {
+    color: #9a1b61;
+    text-align: center;
+}
+
+.all-books-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.all-books-container li {
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #e1bee7;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.all-books-container li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.all-books-container li h3 {
+    margin: 0;
+    color: #8c146e;
+}
+
+.all-books-container li p {
+    margin: 5px 0;
+    color: #000000;
+}

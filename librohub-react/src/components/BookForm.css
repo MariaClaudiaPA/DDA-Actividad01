@@ -1,0 +1,63 @@
+/* src/components/BookForm.css */
+
+.book-form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    margin: 40px auto;
+    transition: box-shadow 0.3s;
+}
+
+.book-form:hover {
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2);
+}
+
+.book-form input,
+.book-form textarea {
+    width: 95%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.book-form input:focus,
+.book-form textarea:focus {
+    border-color: #db345e;
+    outline: none;
+    box-shadow: 0 0 5px rgba(219, 52, 191, 0.5);
+}
+
+.book-form button {
+    background-color: #db3495;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 95%;
+}
+
+.book-form button:hover {
+    background-color: rgb(112, 53, 87);
+    transform: translateY(-2px);
+}
+
+.book-form button:active {
+    transform: translateY(0);
+    background-color: #88697b;
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 5px;
+}
